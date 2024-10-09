@@ -1,0 +1,753 @@
+body {
+  background-color: #F8F8FF;
+  padding         : 10px;
+
+}
+
+.barra-top {
+  width       : 450px;
+  height      : 180px;
+  border      : 10px solid #242c2c;
+  border-width: 5px 0px 5px 5px;
+  margin      : 0 auto;
+  position    : relative;
+
+}
+
+.barra-top h1,
+.barra-top h2 {
+  position: absolute;
+  top     : 10px;
+  left    : 10px;
+}
+
+/*Letras*/
+.letras1 {
+  font-family: brus;
+  font-size  : 45px;
+  color      : #242c2c;
+  margin-top : 30px;
+  margin-left: 200px;
+  white-space: nowrap
+}
+
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style : normal;
+}
+
+.letras2 {
+  margin-top : 85px;
+  color      : #242c2c;
+  margin-left: 240px;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-size  : 38px;
+}
+
+.ms-madi-regular {
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style : normal;
+}
+
+.letras-caixa-sobre-imagem-titulo {
+  color      : white;
+  font-size  : 50px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align : center;
+
+}
+
+.letras-caixa-sobre-imagem {
+  color         : white;
+  text-align    : left;
+  text-align    : left;
+  font-size     : 18px;
+  text-indent   : 10%;
+  font-family   : "Bubbler One", sans-serif;
+  font-style    : normal;
+  letter-spacing: 2px;
+}
+
+
+.kanit-light-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style : italic;
+}
+
+.ProblemasMentais {
+  color     : #242c2c;
+  margin-top: 350px;
+  font-size : 50px;
+  text-align: center;
+  display   : block;
+
+}
+
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+}
+
+.uso {
+  text-indent: 10%;
+  color      : #242c2c;
+  font-size  : 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align : left;
+}
+
+
+.impulsividade {
+  color      : #242c2c;
+  display    : flex;
+  text-align : left;
+  text-indent: 10%;
+  font-size  : 14px;
+  font-family: "Bubbler One", sans-serif;
+  margin-top : 20px;
+}
+
+.TDH {
+  color      : #242c2c;
+  display    : flex;
+  text-align : left;
+  text-indent: 10%;
+  font-size  : 14px;
+  font-family: "Bubbler One", sans-serif;
+  margin-top : 5 px;
+}
+
+.Traumas {
+  color      : #242c2c;
+  display    : flex;
+  text-align : left;
+  text-indent: 10%;
+  font-size  : 14px;
+  font-family: "Bubbler One", sans-serif;
+  margin-top : 20px;
+}
+
+
+.criancapostura{
+  text-align: left;
+  display: flex;
+  font-size : 18px;
+  font-family: "Bubbler One", sans-serif;
+  text-indent   : 10%;
+}
+
+.crianca-postura-titulo{
+  text-align: center;
+  display: block;
+  font-size : 50px;
+  text-indent   : 10%;
+}
+
+
+
+/*logos*/
+.logo-instagram {
+  top     : 15px;
+  left    : 5px;
+  position: absolute;
+  height  : 12px;
+  width   : auto;
+}
+
+.logo-instagram2 {
+  top     : 40px;
+  left    : 5px;
+  position: absolute;
+  height  : 12px;
+  width   : auto;
+}
+
+.logo-email {
+  top     : 127px;
+  left    : 10px;
+  position: absolute;
+  height  : 20px;
+  width   : auto;
+
+}
+
+/*imagem*/
+.imagem-criança {
+  width       : 900px;
+  height      : 500px;
+  margin-top  : 100px;
+  display     : block;
+  margin-left : 300px;
+  margin-right: auto;
+}
+
+.container {
+  position: relative;
+  width   : 500px;
+  height  : 300px;
+}
+
+/*caixas  */
+
+.linha1-caixa-principal {
+  height          : 25px;
+  width           : 5px;
+  margin-left     : 445px;
+  background-color: black;
+
+}
+
+.linha1-caixa-principa2 {
+  height          : 25px;
+  width           : 5px;
+  margin-top      : 130px;
+  margin-left     : 445px;
+  background-color: black;
+
+}
+
+.caixa-sobreposta {
+  position        : absolute;
+  top             : 83%;
+  left            : 190%;
+  transform       : translate(-50%, -50%);
+  width           : 80%;
+  height          : 175%;
+  background-color: #242c2c;
+  color           : black;
+  text-align      : center;
+  padding         : 20px;
+}
+
+.box {
+  -webkit-box-shadow: 0px 0px 75px -21px rgba(36, 44, 44, 1);
+  -moz-box-shadow   : 0px 0px 75px -21px rgba(36, 44, 44, 1);
+  box-shadow        : 0px 0px 75px -21px rgba(36, 44, 44, 1);
+}
+
+:root {
+  --scroll-height: 25px;
+}
+
+.img1 {
+  max-width: 100%;
+}
+
+section {
+  margin-top   : 300px;
+  font-size    : 1.5rem;
+  margin-inline: auto;
+  padding-block: var(--scroll-height);
+  width        : min(60ch, 100%);
+}
+
+.img1 {
+  animation         : reveal 1ms ease-in-out both;
+  animation-timeline: view();
+  animation-range   : entry 25% cover 50%;
+}
+
+
+
+@keyframes scroll {
+  from {
+    scale: 0 1;
+  }
+
+  to {
+    scale: 1 1;
+  }
+}
+
+@keyframes reveal {
+  from {
+    opacity  : 0;
+    clip-path: inset(45% 20% 45% 20%);
+  }
+
+  to {
+    opacity  : 1;
+    clip-path: inset(0% 0% 0% 0%);
+  }
+}
+
+/*css parte 2*/
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap                  : 20px;
+  width                : 940px;
+  margin               : auto;
+  margin-top           : 42px;
+
+}
+
+.card {
+  background-color: #fff;
+  border-radius   : 10px;
+  box-shadow      : 0 2px 20px rgba(0, 0, 0, 0.1);
+  overflow        : hidden;
+  width           : 300px;
+}
+
+.card-header img {
+  width     : 100%;
+  height    : 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display       : flex;
+  flex-direction: column;
+  align-items   : start;
+  padding       : 20px;
+  min-height    : 250px;
+}
+
+.tag {
+  background-color: #ccc;
+  color           : #fff;
+  border-radius   : 50px;
+  padding         : 5px 10px;
+  text-transform  : uppercase;
+}
+
+.tag-teal {
+  font-size       : 12px;
+  color           : #fff;
+  background-color: red;
+}
+
+.tag-purple {
+  font-size       : 12px;
+  color           : #fff;
+  background-color: orange;
+}
+
+.tag-pink {
+  font-size       : 12px;
+  color           : #fff;
+  background-color: #3d1d94;
+}
+
+
+/*zoom*/
+.zoom {
+  overflow: hidden;
+}
+
+.zoom img {
+  max-width         : 100%;
+  -moz-transition   : all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition        : all 0.3s;
+}
+
+.zoom:hover img {
+  -moz-transform   : scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform        : scale(1.1);
+}
+
+
+
+/*css Problemas Físicos*/
+.color_white {
+  color: #fff;
+}
+
+.color_grey {
+  color: #e2e2e2;
+}
+
+.color_grey_dark {
+  color: #a2a2a2;
+}
+
+.blog-card {
+  display       : flex;
+  flex-direction: column;
+  margin        : 1rem auto;
+  box-shadow    : 0 3px 7px -1px rgba(0, 0, 0, .1);
+  margin-bottom : 1.6%;
+  background    : #fff;
+  line-height   : 1.4;
+  font-family   : sans-serif;
+  border-radius : 5px;
+  overflow      : hidden;
+  z-index       : 0;
+}
+
+.blog-card a {
+  color          : inherit;
+  text-decoration: none;
+}
+
+.blog-card a:hover {
+  color: #5ad67d;
+}
+
+.blog-card:hover .photo {
+  transform: scale(1.3) rotate(3deg);
+}
+
+.meta {
+  position: relative;
+  z-index : 0;
+  height  : 200px;
+}
+
+.photo {
+  position           : absolute;
+  top                : 0;
+  right              : 0;
+  bottom             : 0;
+  left               : 0;
+  background-size    : cover;
+  background-position: center;
+  transition         : transform .2s;
+}
+
+.description {
+  padding   : 1rem;
+  background: #fff;
+  position  : relative;
+  z-index   : 1;
+}
+
+.description h1,
+.description h2 {
+  font-family: Poppins, sans-serif;
+}
+
+.description h1 {
+  line-height: 1;
+  margin     : 0;
+  font-size  : 1.7rem;
+}
+
+.description h2 {
+  font-size     : 1rem;
+  font-weight   : 300;
+  text-transform: uppercase;
+  color         : #a2a2a2;
+  margin-top    : 5px;
+}
+
+p {
+  position: relative;
+  margin  : 1rem 0 0;
+}
+
+p:first-of-type {
+  margin-top: 1.25rem;
+}
+
+
+
+.blog-card:hover .details {
+  left: 0%;
+}
+
+@media (min-width: 640px) {
+  .blog-card {
+    flex-direction: row;
+    max-width     : 700px;
+  }
+
+  .meta {
+    flex-basis: 40%;
+    height    : auto;
+  }
+
+  .description {
+    flex-basis: 60%;
+  }
+
+  .description:before {
+    transform : skewX(-3deg);
+    content   : "";
+    background: #fff;
+    width     : 30px;
+    position  : absolute;
+    left      : -10px;
+    top       : 0;
+    bottom    : 0;
+    z-index   : -1;
+  }
+
+  .blog-card.alt {
+    flex-direction: row-reverse;
+  }
+
+  .blog-card.alt .description:before {
+    left     : inherit;
+    right    : -10px;
+    transform: skew(3deg);
+  }
+
+  .blog-card.alt .details {
+    padding-left: 25px;
+  }
+}
+
+/* Instagram*/
+a svg #instagram {
+  fill: #000000;
+  transition: fill 200ms ease-in-out;
+  -webkit-transition: fill 200ms ease-in-out;
+}
+
+a:hover svg #instagram {
+  fill: url(#instagramGradient); 
+}
+
+article {
+  width: 100%;
+  margin: 60px auto;
+  text-align: center;
+  zoom: 2;
+}
+
+a {
+  outline: none;
+  border: 0;
+  text-decoration: none;
+}
+
+
+/* CSS PARTE 2*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+        
+
+.my-carddois {
+    position: relative;
+    height: 450px;
+    width: 900px;
+    margin: 200px auto;
+    background-color: #FFF;
+}
+.my-thumbnail {
+    float: left;
+    position: relative;
+    left: 30px;
+    top: -30px;
+    height: 320px;
+    width: 530px;
+   
+}
+
+img.my-left {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: auto;
+    width: 100%;
+    transform: translate(-50%,-50%);
+}
+
+.my-right {
+  margin-top: 1000px;
+    margin-left: 590px;
+    margin-right: 20px;
+}
+
+.my-h1 {
+    padding-top: 15px;
+    font-size: 1.3rem;
+    color: #4B4B4B;
+}
+
+.my-author {
+    background-color: #9ECAFF;
+    height: 30px;
+    width: 130px;
+    border-radius: 20px;
+}
+
+.my-author > img {
+    padding-top: 5px;
+    margin-left: 10px;
+    float: left;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+h2.my-h2 {
+    padding-top: 8px;
+    margin-right: 6px;
+    text-align: center;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.my-separator {
+    margin-top: 10px;
+    border: 1px solid #C3C3C3;
+}
+
+.my-p1 {
+    text-align: left;
+    text-indent: 10%;
+    padding-top: 10px;
+    font-size: 0.95rem;
+    line-height: 150%;
+    color: #4B4B4B;
+}
+
+.my-p2 {
+    text-align: left;
+    text-indent: 10%;
+    padding-top: 1px;
+    font-size: 0.95rem;
+    line-height: 150%;
+    color: #4B4B4B;
+}
+
+/*email*/
+
+
+.center-icon {
+  top     : 125px;
+  left    : 9px;
+  position: absolute;
+  height  : 12px;
+  width   : auto;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px; 
+  color: #4B4B4B; 
+}
+
+.message {
+  position: fixed; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  display: none; 
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #D3D3D3;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 10; 
+}
+
+
+/*css parte 4*/
+
+
+.containerProblemassociais {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  max-width: 600px;
+  margin-left: 30%;
+  margin-top: 100px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  
+}
+
+.containeProblemassociais{
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  max-width: 600px;
+  margin-left:30%;
+  margin-top: 100px;
+  height: 400px;
+  position: absolute;
+  display: flex;
+  
+}
+
+.imageProblemassociais {
+  width: 50%;
+  height: 100%;
+  background-position: 30%;
+  background-image: url("https://i0.statig.com.br/bancodeimagens/72/sl/ry/72slry29pjfmx8ssik122swm1.jpg");
+  background-size: cover;
+  filter: grayscale(100%);
+  position: relative;
+  background-repeat: no-repeat;
+}
+.image1Problemassociais {
+  width: 50%;
+  height: 100%;
+  background-position: 80%;
+  background-image: url("cyber.png");
+  background-size: 300%;
+  border-radius: 5px;
+  filter: grayscale(100%);
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.bold-text {
+  font-family: "Lora", serif;
+  font-weight: 700;
+}
+
+.italic-text {
+  font-family: "Lora", serif;
+  font-style: italic;
+}
+
+.contentProblemassociais {
+  flex: 2;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleProblemassociais {
+  font-size: 50px;
+  margin: 0;
+  white-space: nowrap;
+  position: absolute;
+  top: 50px;
+  left: 380px;
+  transform: translateX(-50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.textProblemassociais {
+  font-size: 14px;
+  line-height: 2;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-indent: 10%;
+  margin-top: 60px;
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Problemassociais-letras{
+  color     : #242c2c;
+margin-top: 4000px;
+margin-left: 35%;
+font-size : 50px;
+text-align: center;
+}
+.h20{
+color     : #242c2c;
+font-size : 20px;
+margin-top: 3 00px;
+text-align: center;
+display   : block;
+
+}
